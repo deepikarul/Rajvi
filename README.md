@@ -1,4 +1,4 @@
-# Rajvi Desai — Personal Homepage
+# Rajvi Desai - Personal Homepage
 
 ## Author
 
@@ -6,7 +6,7 @@ Rajvi Desai
 
 ## Class
 
-[CS5610 Web Development — Northeastern University]
+[CS5610 Web Development - Northeastern University]
 
 ## Project objective
 
@@ -30,9 +30,9 @@ This is a static site with no build step or dependencies to install.
 
 ## Pages
 
-- `index.html` — homepage (hand-built)
-- `projects.html` — projects & experience (hand-built)
-- `ai-generated.html` — resume-style page (AI-generated, see below)
+- `index.html` - homepage (hand-built)
+- `projects.html` - projects & experience (hand-built)
+- `ai-generated.html` - resume-style page (AI-generated, see below)
 
 ## Creative addition
 
@@ -134,6 +134,11 @@ Major prompts given for the ai-generated page are:
 > Do one final check: confirm there's no Bootstrap or jQuery anywhere, no
 > !important in the CSS, no non-semantic tags, and that the JS feature is
 > more than 5 lines and uses type="module".
+
+## Presentation & Video
+
+- **Slides:** [Google Slides presentation](https://docs.google.com/presentation/d/18YjzSB4N78vzacy6NMMXMjavn7g1qWBphxGwJD37aE4/edit?usp=sharing)
+- **Demo video:** [Watch on YouTube](https://youtu.be/AWYolBU_5T0)
 
 ## License
 
