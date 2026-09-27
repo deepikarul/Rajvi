@@ -1,12 +1,15 @@
 # Rajvi Desai — Personal Homepage
 
 ## Author
+
 Rajvi Desai
 
 ## Class
+
 [CS5610 Web Development — Northeastern University]
 
 ## Project objective
+
 A personal homepage built with vanilla HTML5, CSS3, and ES6+ for CS5610
 Project 1. The site highlights my work in machine learning and sports
 analytics alongside a competitive basketball background, including an
@@ -21,7 +24,7 @@ interactive shot chart as a creative addition.
 This is a static site with no build step or dependencies to install.
 
 1. Clone the repo
-2. Open `index.html` with a local server 
+2. Open `index.html` with a local server
 3. Navigate between Home, Projects, and the AI-generated page using the
    nav bar
 
@@ -56,6 +59,7 @@ accepted as a single output.
 Major prompts given for the ai-generated page are:
 
 **Prompt:**
+
 > I'm building a third page for my personal portfolio site, and I want it
 > to work as an online resume/CV page. Here's my existing CSS file so you
 > understand my site's visual style: [contents of main.css]. And here's
@@ -73,7 +77,7 @@ Major prompts given for the ai-generated page are:
 > must use ES6 modules, use flexbox not tables, use real semantic HTML
 > elements, all images need alt text, include meta tags for author and
 > description. For the output, give me a single HTML file called
-> ai-generated.html, any new CSS rules added to a new file 
+> ai-generated.html, any new CSS rules added to a new file
 > reusing existing classes wherever possible, and if you add any
 > JavaScript, put it in its own file, loaded as an
 > ES6 module. Before writing any code, propose a plan - what sections, in
@@ -81,47 +85,52 @@ Major prompts given for the ai-generated page are:
 > part. Don't write code yet.
 
 **Prompt:**
+
 > That plan works. Generate the actual HTML for ai-generated.html now,
 > reusing the CSS classes from the file I pasted above so it matches the
 > rest of my site exactly.
 
 **Prompt:**
+
 > Add a one-line professional summary under the main heading, tying
 > together my ML background and basketball experience.
 
 **Prompt:**
+
 > Split the flat skills list into categorized sub-groups: Languages,
 > Machine Learning, Infrastructure, Visualization, matching how they're
 > grouped in the resume I pasted earlier.
 
 **Prompt:**
+
 > Double check the basketball section against the resume I gave you - I
 > think something's missing.
 
 **Prompt:**
+
 > Check the heading hierarchy across the whole page and fix it so it's
 > strictly sequential, h1 to h2 to h3, no skipped levels.
 
 **Prompt:**
-> Add one small, original JavaScript feature to this page, something
-> simple and useful for a resume page, using an ES6 module with
-> type="module".
 
-**Prompt:**
 > Add an aria-label to the nav bar for accessibility.
 
 **Prompt:**
+
 > Standardize dash usage across the page, en dash for date ranges, em
 > dash for standalone separators.
 
 **Prompt:**
+
 > Add a "last updated" line before the footer.
 
 **Prompt:**
+
 > Remove any redundant or empty tags, and make sure the class names match
 > projects.html exactly.
 
 **Prompt:**
+
 > Do one final check: confirm there's no Bootstrap or jQuery anywhere, no
 > !important in the CSS, no non-semantic tags, and that the JS feature is
 > more than 5 lines and uses type="module".

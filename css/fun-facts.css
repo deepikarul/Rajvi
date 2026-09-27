@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
   color: #222;
   line-height: 1.6;
   background-color: #fafafa;
@@ -159,21 +163,6 @@ footer {
   text-decoration: underline;
 }
 
-/* Resume page additions */
-.page-heading button {
-  margin-top: 1rem;
-  font: inherit;
-  color: #fff;
-  background-color: #d35400;
-  border: none;
-  border-radius: 8px;
-  padding: 0.5rem 1.2rem;
-  cursor: pointer;
-}
-
-.page-heading button:hover {
-  background-color: #b8460a;
-}
 
 .skill-subhead {
   font-size: 0.85rem;
